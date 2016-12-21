@@ -7,5 +7,6 @@ Aula 5
 
 
 Aula 6
-=---------------------------------------------------
-1. Inserindo referencia ao Entity Framework
+----------------------------------------------------
+1. Inserindo referencia ao Entity Framework ao Projeto quiron.lojavirtual.dominio
+
