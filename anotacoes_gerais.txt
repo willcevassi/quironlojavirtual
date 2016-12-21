@@ -1,5 +1,0 @@
-Aula 5
----------------------------------------------------
-1. Instalado o Plugin ReSharper
-2. Instalado SQLocalDB 2016
-3. Instalado o SQL Manager Studio

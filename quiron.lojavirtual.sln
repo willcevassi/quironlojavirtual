@@ -10,6 +10,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quiron.lojavirtual.unitTest", "quiron.lojavirtual.unitTest\quiron.lojavirtual.unitTest.csproj", "{9392A220-2D3B-47BE-AC10-812EF0AE14EF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Artefatos", "Artefatos", "{742B3EAE-2327-44A1-8DD4-C6422A4F9381}"
+	ProjectSection(SolutionItems) = preProject
+		artefatos\anotacoes_gerais.txt = artefatos\anotacoes_gerais.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BancoDados", "BancoDados", "{BDB139F8-35EA-4FD4-AA24-2B63A777C167}"
 EndProject
