@@ -9,6 +9,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quiron.lojavirtual.web", "q
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quiron.lojavirtual.unitTest", "quiron.lojavirtual.unitTest\quiron.lojavirtual.unitTest.csproj", "{9392A220-2D3B-47BE-AC10-812EF0AE14EF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Artefatos", "Artefatos", "{742B3EAE-2327-44A1-8DD4-C6422A4F9381}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BancoDados", "BancoDados", "{BDB139F8-35EA-4FD4-AA24-2B63A777C167}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{286FAC75-A9C8-410D-958F-8967D1B098C6}"
+	ProjectSection(SolutionItems) = preProject
+		criacaodobanco.sql = criacaodobanco.sql
+		artefatos\banco de dados\scripts\dbo.Produtos.data.sql = artefatos\banco de dados\scripts\dbo.Produtos.data.sql
+		artefatos\banco de dados\scripts\dbo.Produtos.sql = artefatos\banco de dados\scripts\dbo.Produtos.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +41,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BDB139F8-35EA-4FD4-AA24-2B63A777C167} = {742B3EAE-2327-44A1-8DD4-C6422A4F9381}
+		{286FAC75-A9C8-410D-958F-8967D1B098C6} = {BDB139F8-35EA-4FD4-AA24-2B63A777C167}
 	EndGlobalSection
 EndGlobal
