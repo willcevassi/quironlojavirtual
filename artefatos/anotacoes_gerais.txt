@@ -9,4 +9,8 @@ Aula 5
 Aula 6
 ----------------------------------------------------
 1. Inserindo referencia ao Entity Framework ao Projeto quiron.lojavirtual.dominio
+2.	Para iniciar o uso do entity é necessário criar uma classe extendendo DbContext. Nesta classe criar uma propriedade do tipo "public DbSet<Produto> Produtos"
+3. Configurar a String de conexao no web.config do projeto web
+4. 
+
 
